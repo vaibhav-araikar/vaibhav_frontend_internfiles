@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interview - AIML Interview Bot</title>
+  <link rel="stylesheet" href="interview_home.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-logo">AIML Interview Bot</div>
+    <div class="navbar-menu">
+      <a href="home.html">Home</a>
+      <a href="interview_home.html">Interview</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="signin.html">Sign In</a>
+    </div>
+  </nav>
+
+  <section class="interview-section">
+    <h1 class="interview-title">Customize Your Interview</h1>
+    <div class="filter-container">
+      <div class="filter-group">
+        <label for="jobRole">Job Role</label>
+        <select id="jobRole">
+          <option value="">Select</option>
+          <option value="frontend">Frontend Developer</option>
+          <option value="backend">Backend Developer</option>
+          <option value="fullstack">Full Stack Developer</option>
+          <option value="ml">ML Engineer</option>
+        </select>
+      </div>
+      <div class="separator"></div>
+      <div class="filter-group">
+        <label for="experience">Experience</label>
+        <select id="experience">
+          <option value="">Select</option>
+          <option value="0-1">0-1 Years</option>
+          <option value="1-3">1-3 Years</option>
+          <option value="3-5">3-5 Years</option>
+          <option value="5+">5+ Years</option>
+        </select>
+      </div>
+      <div class="separator"></div>
+      <div class="filter-group">
+        <label for="description">Topic</label>
+        <select id="description">
+          <option value="">Select</option>
+          <option value="system-design">System Design</option>
+          <option value="dsa">DSA Questions</option>
+          <option value="behavioral">Behavioral Round</option>
+        </select>
+      </div>
+    </div>
+    <div class="button-group">
+      <button class="start-btn">Start Interview</button>
+      <button class="reset-btn">Reset</button>
+      <button class="upgrade-btn">🚀 Upgrade</button>
+    </div>
+  </section>
+
+  <section class="cards-section">
+    <div class="card">
+      <div class="card-image left-image"><!-- placeholder image --></div>
+      <div class="card-content">
+        <h3>Interactive Feedback</h3>
+        <p>Get real‑time suggestions on your answers during mock interviews.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <h3>Performance Analytics</h3>
+        <p>Track your progress over time with detailed performance stats.</p>
+      </div>
+      <div class="card-image right-image"><!-- placeholder image --></div>
+    </div>
+    <div class="card">
+      <div class="card-image left-image"><!-- placeholder image --></div>
+      <div class="card-content">
+        <h3>Question Library</h3>
+        <p>Access curated questions across job roles and difficulty levels.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
